@@ -1,0 +1,56 @@
+{
+	"Give me a breakdown of node statuses grouped by events": {
+		"blocks": [
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": f"@{username} _Here are the results for_ `/select {command}`"
+				}
+			},
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "Overall condition is above average, with some severe violations. Might need to take action for node_name: rds-C1111-14-wr01.net.tfayd.com on home talent"
+				}
+			},
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "Click for details [<https://nbc.selector.ai/app/slack-to-portal/6658d3a8bd4e6cea573a75e4|S2AP Portal>]"
+				}
+			},
+			{
+				"type": "image",
+				"title": {
+					"type": "plain_text",
+					"text": "",
+					"emoji": True
+				},
+				"image_url": "https://www.selector.ai/wp-content/uploads/2024/05/selector-npm-dashboard-1.png",
+				"alt_text": "Dashboard Image"
+			}
+		]
+	},
+	"_": {
+		blocks = {
+			"blocks": [
+				{
+					"type": "section",
+					"text": {
+						"type": "mrkdwn",
+						"text": f"@{username} _Here are the results for_ `/select {command}`"
+					}
+				},
+				{
+					"type": "section",
+					"text": {
+						"type": "mrkdwn",
+						"text": "*Invalid Command*"
+					}
+				}
+			]
+		}
+	}

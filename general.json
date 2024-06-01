@@ -35,7 +35,7 @@
 		]
 	},
 	"_": {
-		blocks = {
+		"blocks" = {
 			"blocks": [
 				{
 					"type": "section",

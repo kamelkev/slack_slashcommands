@@ -5,7 +5,7 @@
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": f"@{username} _Here are the results for_ `/select {command}`"
+					"text": "@{username} _Here are the results for_ `/select {command}`"
 				}
 			},
 			{
@@ -27,7 +27,7 @@
 				"title": {
 					"type": "plain_text",
 					"text": "",
-					"emoji": True
+					"emoji": true
 				},
 				"image_url": "https://www.selector.ai/wp-content/uploads/2024/05/selector-npm-dashboard-1.png",
 				"alt_text": "Dashboard Image"
@@ -41,7 +41,7 @@
 					"type": "section",
 					"text": {
 						"type": "mrkdwn",
-						"text": f"@{username} _Here are the results for_ `/select {command}`"
+						"text": "@{username} _Here are the results for_ `/select {command}`"
 					}
 				},
 				{

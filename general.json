@@ -1,5 +1,6 @@
 {
 	"Give me a breakdown of node statuses grouped by events": {
+		"response_type": "in_channel",
 		"blocks": [
 			{
 				"type": "section",

@@ -26,7 +26,7 @@
 				"type": "image",
 				"title": {
 					"type": "plain_text",
-					"text": " ",
+					"text": "Example",
 					"emoji": true
 				},
 				"image_url": "https://www.selector.ai/wp-content/uploads/2024/05/selector-npm-dashboard-1.png",

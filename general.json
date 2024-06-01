@@ -35,23 +35,21 @@
 		]
 	},
 	"_": {
-		"blocks" = {
-			"blocks": [
-				{
-					"type": "section",
-					"text": {
-						"type": "mrkdwn",
-						"text": "@{username} _Here are the results for_ `/select {command}`"
-					}
-				},
-				{
-					"type": "section",
-					"text": {
-						"type": "mrkdwn",
-						"text": "*Invalid Command*"
-					}
+		"blocks": [
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "@{username} _Here are the results for_ `/select {command}`"
 				}
-			]
-		}
+			},
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "*Invalid Command*"
+				}
+			}
+		]
 	}
 }

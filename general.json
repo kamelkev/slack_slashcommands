@@ -18,7 +18,7 @@
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "🔺 [HIGH] if_circuit_status_changes, bgp_flap_rate, if_updown, bfd_chnage, bgp_peer_uptime, bgp_updown on router1.site1, router2,site2 Alert Details"
+					"text": "🔺 [HIGH] if_circuit_status_changes, *bgp_flap_rate*, *if_updown*, *bfd_change*, *bgp_peer_uptime*, *bgp_updown* on *router1.site1*, *router2,site2* Alert Details"
 				}
 			},
 			{
@@ -152,7 +152,7 @@
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "Current condition is *OK*, with some critical violations. *Recommended to take action for kpi_name: bgp_flaps, if_op_status on router1.site1 and router2.site2.*"
+					"text": "_Current condition is *OK*, with some critical violations. *Recommended to take action for kpi_name: bgp_flaps, if_op_status on router1.site1 and router2.site2.*_"
 				}
 			},
 			{

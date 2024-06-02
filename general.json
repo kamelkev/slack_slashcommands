@@ -1,4 +1,113 @@
 {
+	"simulate alert": {
+		"response_type": "ephemeral",
+		"blocks": [
+			{
+				"type": "header",
+				"text": {
+					"type": "plain_text",
+					"text": "Alert Notification",
+					"emoji": true
+				}
+			},
+			{
+				"type": "divider"
+			},
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "🔺 [HIGH] Fpc Cpu, Linecard High Temp, Log Counts, Minor Alarm, Temp Alarm Set, Temperature Trap Set events on *gw2.sp4*"
+				}
+			},
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "*Alert Details*"
+				}
+			},
+			{
+				"type": "divider"
+			},
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "　　　　　　　　　　　　　　　　　　　　　  [<https://google.com|S2AP Portal>]"
+				}
+			},
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "*Event Summary:*\n    • 1 if_circuit_status_changes\n    • 2 bgp_flap_rate\n    • 8 if_updown\n    • 2 bgp_peer_uptime\n<http://example.com|See More>"
+				}
+			},
+			{
+				"type": "actions",
+				"block_id": "actionblock789",
+				"elements": [
+					{
+						"type": "button",
+						"text": {
+							"type": "plain_text",
+							"text": "Preview"
+						},
+						"url": "https://api.slack.com/block-kit"
+					},
+					{
+						"type": "button",
+						"text": {
+							"type": "plain_text",
+							"text": "Mute"
+						},
+						"url": "https://api.slack.com/block-kit"
+					},
+					{
+						"type": "button",
+						"text": {
+							"type": "plain_text",
+							"text": "Acknowledge"
+						},
+						"url": "https://api.slack.com/block-kit"
+					},
+					{
+						"type": "button",
+						"text": {
+							"type": "plain_text",
+							"text": "Incident"
+						},
+						"url": "https://api.slack.com/block-kit"
+					}
+				]
+			},
+			{
+				"type": "actions",
+				"elements": [
+					{
+						"type": "conversations_select",
+						"placeholder": {
+							"type": "plain_text",
+							"text": "Was this alert useful?",
+							"emoji": true
+						},
+						"filter": {
+							"include": [
+								"private"
+							]
+						},
+						"action_id": "actionId-0"
+					}
+				]
+			},
+			{
+				"type": "image",
+				"image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/administratively%20disable%20interface%20Ethernet48%20on%20router1.site1.png",
+				"alt_text": "image"
+			}
+		]
+	},
 	"administratively disable interface Ethernet48 on router1.site1": {
 		"response_type": "in_channel",
 		"blocks": [

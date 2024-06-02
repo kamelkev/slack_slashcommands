@@ -1,5 +1,5 @@
 {
-	"/select administratively disable interface Ethernet48 on router1.site1": {
+	"administratively disable interface Ethernet48 on router1.site1": {
 		"response_type": "in_channel",
 		"blocks": [
 			{

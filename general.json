@@ -1,4 +1,31 @@
 {
+	"Is device router1.site1 and router2.site2 still reachable?": {
+		"response_type": "in_channel",
+		"blocks": [
+			{
+				"type": "image",
+				"image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/Is%20device%20router1.site1%20and%20router2.site2%20still%20reachable.png",
+				"alt_text": "image"
+			}
+		]
+	},
+	"What is the health of router1.site1 and router2.site2": {
+		"response_type": "in_channel",
+		"blocks": [
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "Current condition is *OK*, with some critical violations. *Recommended to take action for kpi_name: bgp_flaps, if_op_status on router1.site1 and router2.site2.*"
+				}
+			},
+			{
+				"type": "image",
+				"image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/What%20is%20the%20health%20of%20router1.site1%20and%20router2.site2.png",
+				"alt_text": "image"
+			}
+		]
+	},
 	"Give me a breakdown of node statuses grouped by events": {
 		"response_type": "in_channel",
 		"blocks": [

@@ -1,4 +1,21 @@
 {
+	"/select administratively disable interface Ethernet48 on router1.site1": {
+		"response_type": "in_channel",
+		"blocks": [
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "_*Ethernet48* on *<http://router1.site1|router1.site1>* has been administratively disabled._\n\n_Status of all interfaces on: *<http://router1.site1|router1.site1>*:_"
+				}
+			},
+			{
+				"type": "image",
+				"image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/administratively%20disable%20interface%20Ethernet48%20on%20router1.site1.png",
+				"alt_text": "image"
+			}
+		]
+	},
 	"Is device router1.site1 and router2.site2 still reachable?": {
 		"response_type": "in_channel",
 		"blocks": [

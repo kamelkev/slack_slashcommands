@@ -3,6 +3,13 @@
 		"response_type": "in_channel",
 		"blocks": [
 			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "@{username} _Here are the results for_ `/select {command}`"
+				}
+			},
+			{
 				"type": "image",
 				"image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/Is%20device%20router1.site1%20and%20router2.site2%20still%20reachable.png",
 				"alt_text": "image"
@@ -12,6 +19,13 @@
 	"What is the health of router1.site1 and router2.site2": {
 		"response_type": "in_channel",
 		"blocks": [
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "@{username} _Here are the results for_ `/select {command}`"
+				}
+			},
 			{
 				"type": "section",
 				"text": {

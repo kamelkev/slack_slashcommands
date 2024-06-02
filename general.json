@@ -101,14 +101,6 @@
 						"action_id": "actionId-0"
 					}
 				]
-			},
-			{
-				"type": "divider"
-			},
-			{
-				"type": "image",
-				"image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/administratively%20disable%20interface%20Ethernet48%20on%20router1.site1.png",
-				"alt_text": "image"
 			}
 		]
 	},

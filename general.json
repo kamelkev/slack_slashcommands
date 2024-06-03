@@ -111,7 +111,7 @@
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "*Ethernet48* on *<http://router1.site1|router1.site1>* has been administratively disabled._\n\n_Status of all interfaces on: *<http://router1.site1|router1.site1>*:"
+					"text": "*Ethernet48* on *<http://router1.site1|router1.site1>* has been administratively disabled.\n\n_Status of all interfaces on: *<http://router1.site1|router1.site1>*:"
 				}
 			},
 			{

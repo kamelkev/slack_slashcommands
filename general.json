@@ -18,7 +18,7 @@
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "🔺 [HIGH] if_circuit_status_changes, *bgp_flap_rate*, *if_updown*, *bfd_change*, *bgp_peer_uptime*, *bgp_updown* on *router1.site1*, *router2,site2* Alert Details"
+					"text": "🔺 [HIGH] if_circuit_status_changes, bgp_flap_rate, if_updown, bfd_change, bgp_peer_uptime, bgp_updown on *router1.site1*, *router2,site2*"
 				}
 			},
 			{
@@ -111,7 +111,7 @@
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "_*Ethernet48* on *<http://router1.site1|router1.site1>* has been administratively disabled._\n\n_Status of all interfaces on: *<http://router1.site1|router1.site1>*:_"
+					"text": "*Ethernet48* on *<http://router1.site1|router1.site1>* has been administratively disabled._\n\n_Status of all interfaces on: *<http://router1.site1|router1.site1>*:"
 				}
 			},
 			{
@@ -152,49 +152,13 @@
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "_Current condition is *OK*, with some critical violations. *Recommended to take action for kpi_name: bgp_flaps, if_op_status on router1.site1 and router2.site2.*_"
+					"text": "Current condition is *OK*, with some critical violations. *Recommended to take action for kpi_name: bgp_flaps, if_op_status on router1.site1 and router2.site2.*"
 				}
 			},
 			{
 				"type": "image",
 				"image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/What%20is%20the%20health%20of%20router1.site1%20and%20router2.site2.png",
 				"alt_text": "image"
-			}
-		]
-	},
-	"Give me a breakdown of node statuses grouped by events": {
-		"response_type": "in_channel",
-		"blocks": [
-			{
-				"type": "section",
-				"text": {
-					"type": "mrkdwn",
-					"text": "@{username} _Here are the results for_ `/select {command}`"
-				}
-			},
-			{
-				"type": "section",
-				"text": {
-					"type": "mrkdwn",
-					"text": "Overall condition is above average, with some severe violations. Might need to take action for node_name: rds-C1111-14-wr01.net.tfayd.com on home talent"
-				}
-			},
-			{
-				"type": "section",
-				"text": {
-					"type": "mrkdwn",
-					"text": "Click for details [<https://nbc.selector.ai/app/slack-to-portal/6658d3a8bd4e6cea573a75e4|S2AP Portal>]"
-				}
-			},
-			{
-				"type": "image",
-				"title": {
-					"type": "plain_text",
-					"text": "Example",
-					"emoji": true
-				},
-				"image_url": "https://www.selector.ai/wp-content/uploads/2024/05/selector-npm-dashboard-1.png",
-				"alt_text": "Dashboard Image"
 			}
 		]
 	},

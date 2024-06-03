@@ -128,7 +128,7 @@
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "@{username} _Here are the results for_ `/select {command}`_"
+					"text": "@{username} _Here are the results for `/select {command}`_"
 				}
 			},
 			{
@@ -145,7 +145,7 @@
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "@{username} _Here are the results for_ `/select {command}`_"
+					"text": "@{username} _Here are the results for `/select {command}`_"
 				}
 			},
 			{

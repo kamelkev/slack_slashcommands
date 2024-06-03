@@ -121,14 +121,14 @@
 			}
 		]
 	},
-	"Is device router1.site1 and router2.site2 still reachable?": {
+	"are the devices router1.site1 and router2.site2 still reachable?": {
 		"response_type": "in_channel",
 		"blocks": [
 			{
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "@{username} _Here are the results for_ `/select {command}`"
+					"text": "@{username} _Here are the results for_ `/select {command}`_"
 				}
 			},
 			{
@@ -138,14 +138,14 @@
 			}
 		]
 	},
-	"What is the health of router1.site1 and router2.site2": {
+	"what is the health of devices router1.site1 and router2.site2": {
 		"response_type": "in_channel",
 		"blocks": [
 			{
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "@{username} _Here are the results for_ `/select {command}`"
+					"text": "@{username} _Here are the results for_ `/select {command}`_"
 				}
 			},
 			{
@@ -168,7 +168,7 @@
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "@{username} _Here are the results for_ `/select {command}`"
+					"text": "@{username} _Here are the results for_ `/select {command}`_"
 				}
 			},
 			{

@@ -1,175 +1,103 @@
 {
-    "simulate alert": {
-        "response_type": "in_channel",
-        "blocks": [
-            {
-                "type": "header",
-                "text": {
-                    "type": "plain_text",
-                    "text": "Alert Notification",
-                    "emoji": true
-                }
-            },
-            {
-                "type": "divider"
-            },
-            {
-                "type": "section",
-                "text": {
-                    "type": "mrkdwn",
-                    "text": "*Alert Details*"
-                }
-            },
-            {
-                "type": "divider"
-            },
-            {
-                "type": "section",
-                "text": {
-                    "type": "mrkdwn",
-                    "text": "　　　　　　　　　　　　　　　　　　　　　  [<https://demostack.app/selector-ai/7po4asdgd65e3i4eilcwl2|S2AP Portal>]"
-                }
-            },
-            {
-                "type": "section",
-                "text": {
-                    "type": "mrkdwn",
-                    "text": "*Event Summary:*\n    • 1 if_circuit_status_changes\n    • 2 bgp_flap_rate\n    • 8 if_updown\n    • 2 bgp_peer_uptime\n<https://demostack.app/selector-ai/7po4asdgd65e3i4eilcwl2|See More>"
-                }
-            },
-            {
-                "type": "actions",
-                "block_id": "actionblock789",
-                "elements": [
-                    {
-                        "type": "button",
-                        "text": {
-                            "type": "plain_text",
-                            "text": "Preview"
-                        },
-                        "url": "https://api.slack.com/block-kit"
+    "blocks": [
+        {
+            "type": "header",
+            "text": {
+                "type": "plain_text",
+                "text": "Alert Notification",
+                "emoji": true
+            }
+        },
+        {
+            "type": "divider"
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "🔺 [HIGH] if_dom_rx_pwr_critical, if_circuit_status_changes, bgp_flap_rate, if_updown, bfd_change, bgp_peer_uptime, bgp_updown on *router1.site1*, *router2.site2*"
+            }
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "*Alert Details*"
+            }
+        },
+        {
+            "type": "divider"
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "　　　　　　　　　　　　　　　　　　　　　  [<https://demostack.app/selector-ai/7po4asdgd65e3i4eilcwl2|S2AP Portal>]"
+            }
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "*Event Summary:*\n    • 2 if_dom_rx_pwr_critical\n    • 2 if_circuit_status\n    • 2 bgp_flap_rate\n    • 8 if_updown\n    • 2 bgp_peer_uptime\n<https://demostack.app/selector-ai/7po4asdgd65e3i4eilcwl2|See More>"
+            }
+        },
+        {
+            "type": "actions",
+            "block_id": "actionblock789",
+            "elements": [
+                {
+                    "type": "button",
+                    "text": {
+                        "type": "plain_text",
+                        "text": "Preview"
                     },
-                    {
-                        "type": "button",
-                        "text": {
-                            "type": "plain_text",
-                            "text": "Mute"
-                        },
-                        "url": "https://api.slack.com/block-kit"
+                    "url": "https://api.slack.com/block-kit"
+                },
+                {
+                    "type": "button",
+                    "text": {
+                        "type": "plain_text",
+                        "text": "Mute"
                     },
-                    {
-                        "type": "button",
-                        "text": {
-                            "type": "plain_text",
-                            "text": "Acknowledge"
-                        },
-                        "url": "https://api.slack.com/block-kit"
+                    "url": "https://api.slack.com/block-kit"
+                },
+                {
+                    "type": "button",
+                    "text": {
+                        "type": "plain_text",
+                        "text": "Acknowledge"
                     },
-                    {
-                        "type": "button",
-                        "text": {
-                            "type": "plain_text",
-                            "text": "Incident"
-                        },
-                        "url": "https://api.slack.com/block-kit"
-                    }
-                ]
-            },
-            {
-                "type": "actions",
-                "elements": [
-                    {
-                        "type": "conversations_select",
-                        "placeholder": {
-                            "type": "plain_text",
-                            "text": "Was this alert useful?",
-                            "emoji": true
-                        },
-                        "filter": {
-                            "include": [
-                                "private"
-                            ]
-                        },
-                        "action_id": "actionId-0"
-                    }
-                ]
-            }
-        ]
-    },
-    "administratively disable the interface Ethernet48 on router1.site1": {
-        "response_type": "in_channel",
-        "blocks": [
-            {
-                "type": "section",
-                "text": {
-                    "type": "mrkdwn",
-                    "text": "*Ethernet48* on *<http://router1.site1|router1.site1>* has been administratively disabled.\n\nStatus of all interfaces on: *<http://router1.site1|router1.site1>*:"
+                    "url": "https://api.slack.com/block-kit"
+                },
+                {
+                    "type": "button",
+                    "text": {
+                        "type": "plain_text",
+                        "text": "Incident"
+                    },
+                    "url": "https://api.slack.com/block-kit"
                 }
-            },
-            {
-                "type": "image",
-                "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/administratively%20disable%20the%20interface%20Ethernet48%20on%20router1.site1.png",
-                "alt_text": "image"
-            }
-        ]
-    },
-    "are the devices router1.site1 and router2.site2 still reachable?": {
-        "response_type": "in_channel",
-        "blocks": [
-            {
-                "type": "section",
-                "text": {
-                    "type": "mrkdwn",
-                    "text": "@{username} _Here are the results for `/select {command}`_"
+            ]
+        },
+        {
+            "type": "actions",
+            "elements": [
+                {
+                    "type": "conversations_select",
+                    "placeholder": {
+                        "type": "plain_text",
+                        "text": "Was this alert useful?",
+                        "emoji": true
+                    },
+                    "filter": {
+                        "include": [
+                            "private"
+                        ]
+                    },
+                    "action_id": "actionId-0"
                 }
-            },
-            {
-                "type": "image",
-                "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/Is%20device%20router1.site1%20and%20router2.site2%20still%20reachable.png",
-                "alt_text": "image"
-            }
-        ]
-    },
-    "what is the health of devices router1.site1 and router2.site2": {
-        "response_type": "in_channel",
-        "blocks": [
-            {
-                "type": "section",
-                "text": {
-                    "type": "mrkdwn",
-                    "text": "@{username} _Here are the results for `/select {command}`_"
-                }
-            },
-            {
-                "type": "section",
-                "text": {
-                    "type": "mrkdwn",
-                    "text": "Current condition is *OK*, with some critical violations. *Recommended to take action for kpi_name: bgp_flaps, if_op_status on router1.site1 and router2.site2.*"
-                }
-            },
-            {
-                "type": "image",
-                "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/What%20is%20the%20health%20of%20router1.site1%20and%20router2.site2.png",
-                "alt_text": "image"
-            }
-        ]
-    },
-    "_": {
-        "blocks": [
-            {
-                "type": "section",
-                "text": {
-                    "type": "mrkdwn",
-                    "text": "@{username} _Here are the results for `/select {command}`_"
-                }
-            },
-            {
-                "type": "section",
-                "text": {
-                    "type": "mrkdwn",
-                    "text": "*Invalid Command*"
-                }
-            }
-        ]
-    }
+            ]
+        }
+    ]
 }

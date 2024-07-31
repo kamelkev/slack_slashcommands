@@ -34,14 +34,14 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "　　　　　　　　　　　　　　　　　　　　　  [<https://account.selector.ai/app/slack-to-portal/6658d63cbd4e6cea573a75e5|S2AP Portal>]"
+				"text": "　　　　　　　　　　　　　　　　　　　　　  [<https://demostack.app/selector-ai/7po4asdgd65e3i4eilcwl2|S2AP Portal>]"
 			}
 		},
 		{
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*Event Summary:*\n    • 2 if_dom_rx_pwr_critical\n    • 2 if_circuit_status\n    • 2 bgp_flap_rate\n    • 8 if_updown\n    • 2 bgp_peer_uptime\n<https://account.selector.ai/app/slack-to-portal/6658d63cbd4e6cea573a75e5|See More>"
+				"text": "*Event Summary:*\n    • 2 if_dom_rx_pwr_critical\n    • 2 if_circuit_status\n    • 2 bgp_flap_rate\n    • 8 if_updown\n    • 2 bgp_peer_uptime\n<https://demostack.app/selector-ai/7po4asdgd65e3i4eilcwl2|See More>"
 			}
 		},
 		{

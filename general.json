@@ -34,7 +34,7 @@
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": "*Event Summary:*\n    • 1 if_circuit_status_changes\n    • 2 bgp_flap_rate\n    • 8 if_updown\n    • 2 bgp_peer_uptime\n<http://example.com|See More>"
+                    "text": "*Event Summary:*\n    • 1 if_circuit_status_changes\n    • 2 bgp_flap_rate\n    • 8 if_updown\n    • 2 bgp_peer_uptime\n<https://demostack.app/selector-ai/7po4asdgd65e3i4eilcwl2|See More>"
                 }
             },
             {

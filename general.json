@@ -207,6 +207,110 @@
 		}
 	]
     },	
+    "simulate application alert": {
+        "response_type": "in_channel",
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Alert Notification",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "🔺 [*HIGH Priority Alert*]\n *Likely Root Cause*: configuration event on  *arista2* interface *Ethernet2* \n\n _*Event Summary*_: config_change, router_login, interface_down, ospf_nbr_down, app_database_latency, app_availability_warn, in region *Americas*, affecting applications *Brokerage1*"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Alert Details*"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "　　　　　　　　　　　　　　　　　　　　　  [<https://LINKTBD"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Total Event Summary:*\n    • 1 config_change\n    • 1 router_login\n    • 8 bgp_flap_rate\n    • 2 interface_down\n    • 2 OSPF_nbr_down\n    • 1 app_database_latency\n     • 1 app_availabilituy_warn\n       <https://LINKTBD|See More>"
+			}
+		},
+		{
+			"type": "actions",
+			"block_id": "actionblock789",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Preview"
+					},
+					"url": "https://api.slack.com/block-kit"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Mute"
+					},
+					"url": "https://api.slack.com/block-kit"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Acknowledge"
+					},
+					"url": "https://api.slack.com/block-kit"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Incident"
+					},
+					"url": "https://api.slack.com/block-kit"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "conversations_select",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Was this alert useful?",
+						"emoji": true
+					},
+					"filter": {
+						"include": [
+							"private"
+						]
+					},
+					"action_id": "actionId-0"
+				}
+			]
+		}
+	]
+    },    	
     "administratively disable the interface Ethernet48 on router1.site1": {
         "response_type": "in_channel",
         "blocks": [

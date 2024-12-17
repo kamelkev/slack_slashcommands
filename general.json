@@ -249,7 +249,7 @@
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*Total Event Summary:*\n    • 1 config_change\n    • 1 router_login\n    • 8 bgp_flap_rate\n    • 2 interface_down\n    • 2 OSPF_nbr_down\n    • 1 app_database_latency\n    • 1 app_availability_warn\n       <https://staging.selector.ai/app/shared/6761dddf669d534bef0a9f6f|See More>"
+				"text": "*Total Event Summary:*\n    • 1 config_change\n    • 1 router_login\n    • 8 bgp_flap_rate\n    • 2 interface_down\n    • 2 ospf_nbr_down\n    • 1 app_database_latency\n    • 1 app_availability_warn\n       <https://staging.selector.ai/app/shared/6761dddf669d534bef0a9f6f|See More>"
 			}
 		},
 		{

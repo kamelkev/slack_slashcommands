@@ -121,7 +121,7 @@
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: Unexpected bgp_state, bfd_state, interface_utilization, device_health, loss, jitter, latency events \n\n *Root Cause*: config_change event on Palo Alto *nyfwpan01* for site *ny*"
+					"text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: Unexpected bgp_state, bfd_state, interface_utilization, device_health, loss, jitter, latency, commit events \n\n *Root Cause*: config_change event on Palo Alto *nyfwpan01* for site *ny*"
 				}
 			},
 			{

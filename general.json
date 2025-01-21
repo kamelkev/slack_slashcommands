@@ -145,7 +145,7 @@
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "*Total Event Summary:*\n    • 1 bgp_state\n    • 1 bfd_state\n    • 1 device_health\n    • 1 cpu_util\n    • 3 latency\n    • 3 jitter\n    • 2 loss\n<https://demostack.app/selector-ai/7po4asdgd65e3i4eilcwl2|See More>"
+					"text": "*Total Event Summary:*\n    • 1 bgp_state\n    • 1 bfd_state\n    • 1 device_health\n    • 1 cpu_util\n    • 3 latency\n    • 3 jitter\n    • 2 loss\n<https://selector20.training.selector.ai/app/shared/678efc0bf7ff6e6fec9700d5|See More>"
 				}
 			},
 			{

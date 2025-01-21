@@ -1,107 +1,107 @@
 {
     "simulate alert": {
         "response_type": "in_channel",
-	"blocks": [
-		{
-			"type": "header",
-			"text": {
-				"type": "plain_text",
-				"text": "Alert Notification",
-				"emoji": true
-			}
-		},
-		{
-			"type": "divider"
-		},
-		{
-			"type": "section",
-			"text": {
-				"type": "mrkdwn",
-				"text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: if_dom_rx_pwr_critical, if_circuit_status_changes, bgp_flap_rate, if_updown, bfd_change, bgp_peer_uptime, bgp_updown on *router1.site1*, *router2.site2* affecting ATT-CircuitID-12345 \n\n *Root Cause*: if_dom_rx_pwr_critical on *router1.site1* interface *Ethernet48* attached to *ATT-CircuitID-12345* "
-			}
-		},
-		{
-			"type": "section",
-			"text": {
-				"type": "mrkdwn",
-				"text": "*Alert Details*"
-			}
-		},
-		{
-			"type": "divider"
-		},
-		{
-			"type": "section",
-			"text": {
-				"type": "mrkdwn",
-				"text": "　　　　　　　　　　　　　　　　　　　　　  [<https://demostack.app/selector-ai/7po4asdgd65e3i4eilcwl2|S2AP Portal>]"
-			}
-		},
-		{
-			"type": "section",
-			"text": {
-				"type": "mrkdwn",
-				"text": "*Total Event Summary:*\n    • 2 if_dom_rx_pwr_critical\n    • 2 if_circuit_status\n    • 8 bgp_flap_rate\n    • 16 if_updown\n    • 2 bgp_peer_uptime\n<https://demostack.app/selector-ai/7po4asdgd65e3i4eilcwl2|See More>"
-			}
-		},
-		{
-			"type": "actions",
-			"block_id": "actionblock789",
-			"elements": [
-				{
-					"type": "button",
-					"text": {
-						"type": "plain_text",
-						"text": "Preview"
-					},
-					"url": "https://api.slack.com/block-kit"
-				},
-				{
-					"type": "button",
-					"text": {
-						"type": "plain_text",
-						"text": "Mute"
-					},
-					"url": "https://api.slack.com/block-kit"
-				},
-				{
-					"type": "button",
-					"text": {
-						"type": "plain_text",
-						"text": "Acknowledge"
-					},
-					"url": "https://api.slack.com/block-kit"
-				},
-				{
-					"type": "button",
-					"text": {
-						"type": "plain_text",
-						"text": "Incident"
-					},
-					"url": "https://api.slack.com/block-kit"
+		"blocks": [
+			{
+				"type": "header",
+				"text": {
+					"type": "plain_text",
+					"text": "Alert Notification",
+					"emoji": true
 				}
-			]
-		},
-		{
-			"type": "actions",
-			"elements": [
-				{
-					"type": "conversations_select",
-					"placeholder": {
-						"type": "plain_text",
-						"text": "Was this alert useful?",
-						"emoji": true
-					},
-					"filter": {
-						"include": [
-							"private"
-						]
-					},
-					"action_id": "actionId-0"
+			},
+			{
+				"type": "divider"
+			},
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: if_dom_rx_pwr_critical, if_circuit_status_changes, bgp_flap_rate, if_updown, bfd_change, bgp_peer_uptime, bgp_updown on *router1.site1*, *router2.site2* affecting ATT-CircuitID-12345 \n\n *Root Cause*: if_dom_rx_pwr_critical on *router1.site1* interface *Ethernet48* attached to *ATT-CircuitID-12345* "
 				}
-			]
-		}
-	]
+			},
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "*Alert Details*"
+				}
+			},
+			{
+				"type": "divider"
+			},
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "　　　　　　　　　　　　　　　　　　　　　  [<https://demostack.app/selector-ai/7po4asdgd65e3i4eilcwl2|S2AP Portal>]"
+				}
+			},
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "*Total Event Summary:*\n    • 2 if_dom_rx_pwr_critical\n    • 2 if_circuit_status\n    • 8 bgp_flap_rate\n    • 16 if_updown\n    • 2 bgp_peer_uptime\n<https://demostack.app/selector-ai/7po4asdgd65e3i4eilcwl2|See More>"
+				}
+			},
+			{
+				"type": "actions",
+				"block_id": "actionblock789",
+				"elements": [
+					{
+						"type": "button",
+						"text": {
+							"type": "plain_text",
+							"text": "Preview"
+						},
+						"url": "https://api.slack.com/block-kit"
+					},
+					{
+						"type": "button",
+						"text": {
+							"type": "plain_text",
+							"text": "Mute"
+						},
+						"url": "https://api.slack.com/block-kit"
+					},
+					{
+						"type": "button",
+						"text": {
+							"type": "plain_text",
+							"text": "Acknowledge"
+						},
+						"url": "https://api.slack.com/block-kit"
+					},
+					{
+						"type": "button",
+						"text": {
+							"type": "plain_text",
+							"text": "Incident"
+						},
+						"url": "https://api.slack.com/block-kit"
+					}
+				]
+			},
+			{
+				"type": "actions",
+				"elements": [
+					{
+						"type": "conversations_select",
+						"placeholder": {
+							"type": "plain_text",
+							"text": "Was this alert useful?",
+							"emoji": true
+						},
+						"filter": {
+							"include": [
+								"private"
+							]
+						},
+						"action_id": "actionId-0"
+					}
+				]
+			}
+		]
     },
     "simulate config change alert": {
         "response_type": "in_channel",
@@ -138,7 +138,7 @@
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "　　　　　　　　　　　　　　　　　　　　　  [<https://selector20.training.selector.ai/app/shared/6789f520f7ff6e6fec9700ad|S2AP Portal>]"
+					"text": "　　　　　　　　　　　　　　　　　　　　　  [<https://selector20.training.selector.ai/app/shared/678ef4d4f7ff6e6fec9700d1|S2AP Portal>]"
 				}
 			},
 			{
@@ -209,107 +209,107 @@
     },	
     "simulate application alert": {
         "response_type": "in_channel",
-	"blocks": [
-		{
-			"type": "header",
-			"text": {
-				"type": "plain_text",
-				"text": "Alert Notification - Brokerage1",
-				"emoji": true
-			}
-		},
-		{
-			"type": "divider"
-		},
-		{
-			"type": "section",
-			"text": {
-				"type": "mrkdwn",
-				"text": "🔺 [*HIGH Priority Application Alert*]\n *Likely Root Cause*: configuration event on  *arista2* interface *Ethernet2* \n\n _*Event Summary*_: config_change, router_login, interface_down, ospf_nbr_down, app_database_latency, app_availability_warn, in region *Americas*, affecting applications *Brokerage1*"
-			}
-		},
-		{
-			"type": "section",
-			"text": {
-				"type": "mrkdwn",
-				"text": "*Alert Details*"
-			}
-		},
-		{
-			"type": "divider"
-		},
-		{
-			"type": "section",
-			"text": {
-				"type": "mrkdwn",
-				"text": "　　　　　　　　　　　　　　　　　　　　　  [<https://staging.selector.ai/app/shared/6761fb54669d534bef0a9f73|S2AP Portal>]"
-			}
-		},
-		{
-			"type": "section",
-			"text": {
-				"type": "mrkdwn",
-				"text": "*Total Event Summary:*\n    • 1 config_change\n    • 1 router_login\n    • 8 bgp_flap_rate\n    • 2 interface_down\n    • 2 ospf_nbr_down\n    • 1 app_database_latency\n    • 1 app_availability_warn\n       <https://staging.selector.ai/app/shared/6761fb54669d534bef0a9f73|See More>"
-			}
-		},
-		{
-			"type": "actions",
-			"block_id": "actionblock789",
-			"elements": [
-				{
-					"type": "button",
-					"text": {
-						"type": "plain_text",
-						"text": "Preview"
-					},
-					"url": "https://api.slack.com/block-kit"
-				},
-				{
-					"type": "button",
-					"text": {
-						"type": "plain_text",
-						"text": "Mute"
-					},
-					"url": "https://api.slack.com/block-kit"
-				},
-				{
-					"type": "button",
-					"text": {
-						"type": "plain_text",
-						"text": "Acknowledge"
-					},
-					"url": "https://api.slack.com/block-kit"
-				},
-				{
-					"type": "button",
-					"text": {
-						"type": "plain_text",
-						"text": "Incident"
-					},
-					"url": "https://api.slack.com/block-kit"
+		"blocks": [
+			{
+				"type": "header",
+				"text": {
+					"type": "plain_text",
+					"text": "Alert Notification - Brokerage1",
+					"emoji": true
 				}
-			]
-		},
-		{
-			"type": "actions",
-			"elements": [
-				{
-					"type": "conversations_select",
-					"placeholder": {
-						"type": "plain_text",
-						"text": "Was this alert useful?",
-						"emoji": true
-					},
-					"filter": {
-						"include": [
-							"private"
-						]
-					},
-					"action_id": "actionId-0"
+			},
+			{
+				"type": "divider"
+			},
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "🔺 [*HIGH Priority Application Alert*]\n *Likely Root Cause*: configuration event on  *arista2* interface *Ethernet2* \n\n _*Event Summary*_: config_change, router_login, interface_down, ospf_nbr_down, app_database_latency, app_availability_warn, in region *Americas*, affecting applications *Brokerage1*"
 				}
-			]
-		}
-	]
+			},
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "*Alert Details*"
+				}
+			},
+			{
+				"type": "divider"
+			},
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "　　　　　　　　　　　　　　　　　　　　　  [<https://staging.selector.ai/app/shared/6761fb54669d534bef0a9f73|S2AP Portal>]"
+				}
+			},
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "*Total Event Summary:*\n    • 1 config_change\n    • 1 router_login\n    • 8 bgp_flap_rate\n    • 2 interface_down\n    • 2 ospf_nbr_down\n    • 1 app_database_latency\n    • 1 app_availability_warn\n       <https://staging.selector.ai/app/shared/6761fb54669d534bef0a9f73|See More>"
+				}
+			},
+			{
+				"type": "actions",
+				"block_id": "actionblock789",
+				"elements": [
+					{
+						"type": "button",
+						"text": {
+							"type": "plain_text",
+							"text": "Preview"
+						},
+						"url": "https://api.slack.com/block-kit"
+					},
+					{
+						"type": "button",
+						"text": {
+							"type": "plain_text",
+							"text": "Mute"
+						},
+						"url": "https://api.slack.com/block-kit"
+					},
+					{
+						"type": "button",
+						"text": {
+							"type": "plain_text",
+							"text": "Acknowledge"
+						},
+						"url": "https://api.slack.com/block-kit"
+					},
+					{
+						"type": "button",
+						"text": {
+							"type": "plain_text",
+							"text": "Incident"
+						},
+						"url": "https://api.slack.com/block-kit"
+					}
+				]
+			},
+			{
+				"type": "actions",
+				"elements": [
+					{
+						"type": "conversations_select",
+						"placeholder": {
+							"type": "plain_text",
+							"text": "Was this alert useful?",
+							"emoji": true
+						},
+						"filter": {
+							"include": [
+								"private"
+							]
+						},
+						"action_id": "actionId-0"
+					}
+				]
+			}
+		]
     },    	
     "administratively disable the interface Ethernet48 on router1.site1": {
         "response_type": "in_channel",
@@ -358,6 +358,23 @@
 			{
 				"type": "image",
 				"image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/refs/heads/main/images/show%20me%20the%20network.png",
+				"alt_text": "image"
+			}
+		]
+	},
+	"show me the config change": {
+		"response_type": "in_channel",
+		"blocks": [
+			{
+				"type": "section",
+				"text": {
+					"type": "mrkdwn",
+					"text": "@{username} _Here are the results for `/select {command}`_"
+				}
+			},
+			{
+				"type": "image",
+				"image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/refs/heads/main/images/show%20me%20the%20config%20change.png",
 				"alt_text": "image"
 			}
 		]

@@ -145,14 +145,17 @@
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "　　　　　　　　　　　　　　　　　　　　　  [<https://selector20.training.selector.ai/app/shared/67901f59f7ff6e6fec9700e9|S2AP Portal>]"
+      "text": "*Related Network Events:*\n    • BGP State Chage on Router 1\n    • Interface 0/0/1 on Router 1 had a State Change\n"
     }
+  },
+  {
+    "type": "divider"
   },
   {
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "*Related Network Events:*\n    • BGP State Chage on Router 1\n    • Interface 0/0/1 on Router 1 had a State Change\n"
+      "text": "　　　　　　　　　　　　　　　　　　　　　  [<https://selector20.training.selector.ai/app/shared/67901f59f7ff6e6fec9700e9|S2AP Portal>]"
     }
   },
   {

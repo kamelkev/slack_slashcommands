@@ -135,14 +135,7 @@
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "• Router 1\n    • Router 2\n    • Router 3h\n"
-    }
-  },
-  {
-    "type": "section",
-    "text": {
-      "type": "mrkdwn",
-      "text": "*Related Network Incidents*"
+      "text": "•Router 1\n •Router 2\n  •Router 3\n"
     }
   },
   {

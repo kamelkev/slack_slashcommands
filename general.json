@@ -103,7 +103,7 @@
 			}
 		]
     },
-"simulate bloomberg alert": {
+"simulate bloomberg  alert": {
     "response_type": "in_channel",
 "blocks": [
   {
@@ -125,13 +125,20 @@
     }
   },
   {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "*Related Network Incidents*"
+    }
+  },
+  {
     "type": "divider"
   },
   {
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "*Related Network Incidents*"
+      "text": "　　　　　　　　　　　　　　　　　　　　　  [<https://selector20.training.selector.ai/app/shared/67901f59f7ff6e6fec9700e9|S2AP Portal>]"
     }
   },
   {
@@ -140,7 +147,7 @@
       "type": "mrkdwn",
       "text": "*Total Event Summary:*\n    • 1 bgp_state\n    • 1 bfd_state\n    • 1 device_health\n    • 1 cpu_util\n    • 3 latency\n    • 3 jitter\n    • 2 loss\n<https://selector20.training.selector.ai/app/shared/678efc0bf7ff6e6fec9700d5|See More>"
     }
-  },	
+  },
   {
     "type": "actions",
     "block_id": "actionblock789",

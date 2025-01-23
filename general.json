@@ -103,6 +103,110 @@
 			}
 		]
     },
+"simulate bloomberg  alert": {
+    "response_type": "in_channel",
+"blocks": [
+  {
+    "type": "header",
+    "text": {
+      "type": "plain_text",
+      "text": "Resend Violations Alert",
+      "emoji": true
+    }
+  },
+  {
+    "type": "divider"
+  },
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "🔺 [*REMSITE 12345 -  Slough*]\n *LocalSite*:6789 - Elliots House \n\n *Total Local and Remote Servers with Resend Violations*: 25 \n\n *Percentage of Servers in Local Site with Resent Violation*: 15% \n\n  *Percentage of Servers in Remote Site with Resent Violation*: 45% \n\n  "
+    }
+  },
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "*Related Network Incidents*"
+    }
+  },
+  {
+    "type": "divider"
+  },
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "　　　　　　　　　　　　　　　　　　　　　  [<https://selector20.training.selector.ai/app/shared/67901f59f7ff6e6fec9700e9|S2AP Portal>]"
+    }
+  },
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "*Total Event Summary:*\n    • 1 bgp_state\n    • 1 bfd_state\n    • 1 device_health\n    • 1 cpu_util\n    • 3 latency\n    • 3 jitter\n    • 2 loss\n<https://selector20.training.selector.ai/app/shared/678efc0bf7ff6e6fec9700d5|See More>"
+    }
+  },
+  {
+    "type": "actions",
+    "block_id": "actionblock789",
+    "elements": [
+      {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Preview"
+        },
+        "url": "https://api.slack.com/block-kit"
+      },
+      {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Mute"
+        },
+        "url": "https://api.slack.com/block-kit"
+      },
+      {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Acknowledge"
+        },
+        "url": "https://api.slack.com/block-kit"
+      },
+      {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Incident"
+        },
+        "url": "https://api.slack.com/block-kit"
+      }
+    ]
+  },
+  {
+    "type": "actions",
+    "elements": [
+      {
+        "type": "conversations_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Was this alert useful?",
+          "emoji": true
+        },
+        "filter": {
+          "include": [
+            "private"
+          ]
+        },
+        "action_id": "actionId-0"
+      }
+    ]
+  }
+]
+},
     "simulate config change alert": {
         "response_type": "in_channel",
 		"blocks": [

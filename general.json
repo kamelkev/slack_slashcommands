@@ -124,6 +124,20 @@
       "text": "[*REMSITE 12345 -  Slough*]\n\n *LocalSite*: 6789 - Elliots House \n\n *Total Local and Remote Servers with Resend Violations*: 25 \n\n *Percentage of Servers in Local Site with Resent Violation*: 15% \n\n *Percentage of Servers in Remote Site with Resent Violation*: 45% \n\n  "
     }
   },
+    {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "*Attached Network Devices*"
+    }
+  },
+    {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "• Router 1\n    • Router 2\n    • Router 3h\n"
+    }
+  },
   {
     "type": "section",
     "text": {
@@ -145,7 +159,7 @@
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "*Rleated Network Events:*\n    • BGP State Chage on XYS Router\n    • Interface 0/0/1 on Router XYX had a State Change\n    • 1 device_health\n    • 1 cpu_util\n    • 3 latency\n    • 3 jitter\n    • 2 loss\n<https://selector20.training.selector.ai/app/shared/678efc0bf7ff6e6fec9700d5|See More>"
+      "text": "*Rleated Network Events:*\n    • BGP State Chage on Router 1\n    • Interface 0/0/1 on Router 1 had a State Change\n"
     }
   },
   {

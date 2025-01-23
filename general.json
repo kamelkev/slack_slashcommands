@@ -159,7 +159,7 @@
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "*Rleated Network Events:*\n    • BGP State Chage on Router 1\n    • Interface 0/0/1 on Router 1 had a State Change\n"
+      "text": "*Related Network Events:*\n    • BGP State Chage on Router 1\n    • Interface 0/0/1 on Router 1 had a State Change\n"
     }
   },
   {

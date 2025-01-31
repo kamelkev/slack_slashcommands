@@ -121,7 +121,7 @@
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "[*REMSITE 12345 -  Slough*]\n\n *LocalSite*: 6789 - Elliots House \n\n *Total Local and Remote Servers with Resend Violations*: 25 \n\n *Percentage of Servers in Local Site with Resent Violation*: 15% \n\n *Percentage of Servers in Remote Site with Resent Violation*: 45% \n\n  "
+      "text": "[*REMSITE 12345 -  Slough*]\n\n *LocalSite*: 6789 - Elliotts House \n\n *Total Local and Remote Servers with Resend Violations*: 25 \n\n *Percentage of Servers in Local Site with Resent Violation*: 15% \n\n *Percentage of Servers in Remote Site with Resent Violation*: 45% \n\n  "
     }
   },
     {

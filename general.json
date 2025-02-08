@@ -121,7 +121,7 @@
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: A local switchover at location X is causing traffic to be forwarded via Verizon.  The chat application is now being served out of AWS US_West - AZ 1 which uses GCP2 for inferencing.  GCP latency has deteriorated.   \n\n *Causation*: Text to be written \n\n *Affected Metro(s):"* US2, San Jose, Chicago \n *Affected Region(s):"* Americas 
+      "text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: A local switchover at location X is causing traffic to be forwarded via Verizon.  The chat application is now being served out of AWS US_West - AZ 1 which uses GCP2 for inferencing.  GCP latency has deteriorated.   \n\n *Causation*: Text to be written \n\n *Affected Metro(s):* US2, San Jose, Chicago \n *Affected Region(s):* Americas" 
     }
   },
   {

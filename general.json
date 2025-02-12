@@ -138,14 +138,14 @@
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "　　　　　　　　　　　　　　　　　　　　　  [<https://https://demo.link/reldy4u262un|Link to Alert in Selector Portal>]"
+      "text": "　　　　　　　　　　　　　　　　　　　　　  [<https://demo.link/reldy4u262un|Link to Alert in Selector Portal>]"
     }
   },
   {
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "*Total Event Summary:*\n    • 5  Circuit Error Alarms\n    • 5 bgp_flap_rate alarms\n    • 3 latency violations \n<https://https://demo.link/reldy4u262un|See More>"
+      "text": "*Total Event Summary:*\n    • 5  Circuit Error Alarms\n    • 5 bgp_flap_rate alarms\n    • 3 latency violations \n<https://demo.link/reldy4u262un|See More>"
     }
   },
   {

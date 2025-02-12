@@ -616,7 +616,7 @@
             },
             {
                 "type": "image",
-                "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/verizon_isp.jpg",
+                "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/verizon_isp.png",
                 "alt_text": "image"
             }
         ]

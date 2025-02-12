@@ -103,14 +103,14 @@
 			}
 		]
     },
-"simulate cloud alert": {
+"cfd alert": {
     "response_type": "in_channel",
 "blocks": [
   {
     "type": "header",
     "text": {
       "type": "plain_text",
-      "text": "Application Alert - ID SELEC3879 ",
+      "text": "Branch Degradation Alert - ID SELEC3879 ",
       "emoji": true
     }
   },
@@ -121,31 +121,31 @@
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: A local switchover at location X is causing traffic to be forwarded via Verizon.  The chat application is now being served out of AWS US_West - AZ 1 which uses GCP2 for inferencing.  GCP latency has deteriorated.   \n\n *Causation*: Text to be written \n\n *Affected Metro(s):* US2, San Jose, Chicago \n *Affected Region(s):* Americas" 
+      "text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: ISP Verizon is experiencing high number of errors. Users in the Singapre locations affected.\n\n  *Affected Circuit IDs:* - SING1231XYZ \n *Affected Metro(s):*  Singapore  \n *Affected Region(s):* APAC" 
     }
   },
-  {
-    "type": "section",
-    "text": {
-      "type": "mrkdwn",
-      "text": "*Alert Details*"
-    }
-  },
-  {
+    {
     "type": "divider"
-  },
+  }, 	
   {
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "　　　　　　　　　　　　　　　　　　　　　  [<https://demostack.app/selector-ai/7po4asdgd65e3i4eilcwl2|S2AP Portal>]"
+      "text": "*Recommended Remediation:* Switchoverto ISP Singtel as SLA compliance for last 24 hours has been 99.45%"
     }
   },
   {
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "*Total Event Summary:*\n    • 12  errors\n    • 10 downs\n    • 5 bgp_flap_rate alarms\n    • 16 if_updown\n    • 2 latency violations \n<https://demostack.app/selector-ai/7po4asdgd65e3i4eilcwl2|See More>"
+      "text": "　　　　　　　　　　　　　　　　　　　　　  [<https://https://demo.link/reldy4u262un|Link to Alert in Selector Portal>]"
+    }
+  },
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "*Total Event Summary:*\n    • 5  Circuit Error Alarms\n    • 5 bgp_flap_rate alarms\n    • 3 latency violations \n<https://https://demo.link/reldy4u262un|See More>"
     }
   },
   {

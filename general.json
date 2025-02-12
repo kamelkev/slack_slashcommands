@@ -597,7 +597,7 @@
 			}
 		]
 	},
-        "any issues in tucson": {
+        "any issues in singapore": {
         "response_type": "in_channel",
         "blocks": [
             {
@@ -611,12 +611,12 @@
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": "Current condition in Tucson is degraded, *ISP1* is showing high discard rates."
+                    "text": "Current condition in Singapore is degraded, *Verizon* is showing high error rates."
                 }
             },
             {
                 "type": "image",
-                "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/tucson_isp.jpg",
+                "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/verizon_isp.jpg",
                 "alt_text": "image"
             }
         ]

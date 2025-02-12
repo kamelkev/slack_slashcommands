@@ -645,7 +645,7 @@
             }
         ]
     }, 	
-        "make Singtel the active ISP for the Singapore branch location": {
+        "make singtel the active ISP for the Singapore branch location": {
         "response_type": "in_channel",
         "blocks": [
             {

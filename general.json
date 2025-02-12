@@ -611,12 +611,12 @@
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": "Current condition in Tucson is degraded, *ISP1* is showing high discard rates"
+                    "text": "Current condition in Tucson is degraded, *ISP1* is showing high discard rates."
                 }
             },
             {
                 "type": "image",
-                "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/What%20is%20the%20health%20of%20router1.site1%20and%20router2.site2.png",
+                "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/tucson_isp.jpg",
                 "alt_text": "image"
             }
         ]

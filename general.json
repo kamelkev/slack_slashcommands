@@ -621,6 +621,30 @@
             }
         ]
     }, 
+        "what is the circuit sla for singapore": {
+        "response_type": "in_channel",
+        "blocks": [
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "@{username} _Here are the results for `/select {command}`_"
+                }
+            },
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "Verizon SLA compliance is currently 85.238% and Singtel is 99.45 ."
+                }
+            },
+            {
+                "type": "image",
+                "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/circuit_sla.png",
+                "alt_text": "image"
+            }
+        ]
+    }, 	
         "make Singtel the active ISP for the Singapore branch location": {
         "response_type": "in_channel",
         "blocks": [

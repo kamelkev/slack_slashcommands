@@ -621,7 +621,7 @@
             }
         ]
     }, 
-        "what is the circuit sla for singapore": {
+        "what is the circuit sla for sandiego": {
         "response_type": "in_channel",
         "blocks": [
             {
@@ -635,7 +635,7 @@
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": "Verizon SLA compliance is currently 85.238% and Singtel is 99.45 ."
+                    "text": "Verizon SLA compliance is currently 85.23% and Singtel is 99.45 ."
                 }
             },
            {
@@ -645,14 +645,14 @@
             }
         ]
     }, 	
-        "make singtel the active ISP for the Singapore branch location": {
+        "make att the active ISP for the san diego branch location": {
         "response_type": "in_channel",
         "blocks": [
             {
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": "*Singtel* on *Singapore-WAN-RTR1* has been made the primary ISP"
+                    "text": "*ATT* on *Sandiego-WAN-RTR1* has been made the primary ISP"
                 }
             }
         ]

@@ -121,7 +121,7 @@
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: ISP Verizon is experiencing high number of errors. Users in the Singapre locations affected.\n\n  *Affected Circuit IDs:* - SING1231XYZ \n *Affected Metro(s):*  Singapore  \n *Affected Region(s):* APAC" 
+      "text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: ISP Verizon is experiencing high number of errors. Users in the California locations affected.\n\n  *Affected Circuit IDs:* - VZ1231XYZ \n *Affected Metro(s):*  West  \n *Affected Region(s):* AMERICAS" 
     }
   },
     {
@@ -131,7 +131,7 @@
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "*Recommended Remediation:* Switchoverto ISP Singtel as SLA compliance for last 24 hours has been 99.45%"
+      "text": "*Recommended Remediation:* Switchoverto ISP ATT as SLA compliance for last 24 hours has been 99.45%"
     }
   },
   {

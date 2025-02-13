@@ -597,7 +597,7 @@
 			}
 		]
 	},
-        "any issues in singapore": {
+        "any issues in san diego": {
         "response_type": "in_channel",
         "blocks": [
             {
@@ -611,7 +611,7 @@
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": "Current condition in Singapore is degraded, primary ISP Verizon is showing high error rates."
+                    "text": "Current condition in San Diego is degraded, the primary ISP Verizon is showing high error rates."
                 }
             },
             {

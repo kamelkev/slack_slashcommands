@@ -616,7 +616,7 @@
             },
             {
                 "type": "image",
-                "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/verizon_isp.png",
+                "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/verizon_isp_2.png",
                 "alt_text": "image"
             }
         ]
@@ -636,13 +636,13 @@
                 "text": {
                     "type": "mrkdwn",
                     "text": "Verizon SLA compliance is currently 85.23% and Singtel is 99.45 ."
-                },
+                }
+	    },
 		{    
                 "type": "image",
                 "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/circuit_sla.png",
                 "alt_text": "Circuit SLA Image"
-            }
-	    }	    
+            }    
         ]
     }, 	
         "make att the active ISP for the san diego branch location": {

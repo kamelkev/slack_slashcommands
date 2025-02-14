@@ -642,7 +642,7 @@
                 "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/circuit_sla.png",
                 "alt_text": "Circuit SLA Image"
             }
-	    },	    
+	    }	    
         ]
     }, 	
         "make att the active ISP for the san diego branch location": {

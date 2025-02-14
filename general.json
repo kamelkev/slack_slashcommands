@@ -621,7 +621,7 @@
             }
         ]
     }, 
-        "what is the circuit sla for sandiego": {
+"what is the circuit sla for sandiego": {
         "response_type": "in_channel",
         "blocks": [
             {
@@ -636,13 +636,13 @@
                 "text": {
                     "type": "mrkdwn",
                     "text": "Verizon SLA compliance is currently 85.23% and Singtel is 99.45 ."
-                }
-            },
-           {
+                },
+		"accessory": {    
                 "type": "image",
                 "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/circuit_sla.png",
                 "alt_text": "Circuit SLA Image"
             }
+	    },	    
         ]
     }, 	
         "make att the active ISP for the san diego branch location": {

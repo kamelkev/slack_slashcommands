@@ -460,7 +460,7 @@
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "　　　　　　　　　　　　　　　　　　　　　  [https://staging.selector.ai/app/shared/67b29865881f6b47ed032639|S2AP Portal>]"
+					"text": "　　　　　　　　　　　　　　　　　　　　　  [<https://staging.selector.ai/app/shared/67b29865881f6b47ed032639|S2AP Portal>]"
 				}
 			},
 			{

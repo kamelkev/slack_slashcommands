@@ -225,7 +225,7 @@
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: High Latency detected between aws-eu-west and gcp-us-east availability zones.  Users in the EU regions Affected.\n\n *Service Now Incident ID:* - SELEC7243 \n *Affected Application:* ACME Chat Ops \n *Application Latency Violation: >500ms* EU \n *Affected Region(s):* EU \n\n *Likely Root Cause*: High CPU Utilization on instance aws-eu-west-3" 
+      "text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: High Latency detected between aws-eu-west and gcp-us-east availability zones.  Users in the EU regions Affected.\n\n *Service Now Incident ID:* - SELEC7243 \n *Affected Application:* ACME Chat Ops \n *Application Latency Violation: >500ms*  \n *Affected Region(s):* EMEAR \n\n *Likely Root Cause*: High CPU Utilization on instance aws-eu-west-3" 
     }
   },
     {

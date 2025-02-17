@@ -460,14 +460,14 @@
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "　　　　　　　　　　　　　　　　　　　　　  [<https://staging.selector.ai/app/shared/67aaa3f56112046839ed9e60|S2AP Portal>]"
+					"text": "　　　　　　　　　　　　　　　　　　　　　  [https://staging.selector.ai/app/shared/67b29865881f6b47ed032639|S2AP Portal>]"
 				}
 			},
 			{
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "*Total Event Summary:*\n    • 1 config_change\n    • 1 router_login\n    • 8 bgp_flap_rate\n    • 2 interface_down\n    • 2 ospf_nbr_down\n    • 1 app_database_latency\n    • 1 app_availability_warn\n       <https://staging.selector.ai/app/shared/67aaa3f56112046839ed9e60|See More>"
+					"text": "*Total Event Summary:*\n    • 1 config_change\n    • 1 router_login\n    • 8 bgp_flap_rate\n    • 2 interface_down\n    • 2 ospf_nbr_down\n    • 1 app_database_latency\n    • 1 app_availability_warn\n       <https://staging.selector.ai/app/shared/67b29865881f6b47ed032639|See More>"
 				}
 			},
 			{

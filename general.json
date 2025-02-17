@@ -775,7 +775,7 @@
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": "The network topology for the chat ops applications has instances in several cloud regions."
+                    "text": "The network topology for the chat ops applications has instances in several cloud regions. There are instances violation between aws-eu-west and gcp-us-east."
                 }
 	    },
 		{    
@@ -823,7 +823,7 @@
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": "Configuration change on aws-eu-west3 ."
+                    "text": "There was an instance type change on aws-eu-west3 at 18:25."
                 }
 	    },
 		{    

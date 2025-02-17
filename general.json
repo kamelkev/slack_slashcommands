@@ -121,7 +121,7 @@
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: ISP Verizon is experiencing high number of errors. Users in the California locations affected.\n\n *Affected Circuit IDs:* - VZ1231XYZ \n *Affected Metro(s):*  West  \n *Affected Region(s):* AMERICAS" 
+      "text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: ISP Verizon is experiencing high number of errors. Users in the California locations affected.\n\n *Service Now Incident ID:* - SELEC3879 \n *Affected Circuit IDs:* - VZ1231XYZ \n *Affected Metro(s):*  West  \n *Affected Region(s):* AMERICAS" 
     }
   },
     {
@@ -225,7 +225,7 @@
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: High Latency detected between aws-eu-west and gcp-us-east availability zones.  Users in the EU regions Affected.\n\n *Affected Application:* ACME Chat Ops \n *Application Latency: 500ms* EU \n *Affected Region(s):* EU \n\n *Likely Root Cause*: High CPU Utilization on instance aws-eu-west-3" 
+      "text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: High Latency detected between aws-eu-west and gcp-us-east availability zones.  Users in the EU regions Affected.\n\n *Service Now Incident ID:* - SELEC7243 \n *Affected Application:* ACME Chat Ops \n *Application Latency Violation: >500ms* EU \n *Affected Region(s):* EU \n\n *Likely Root Cause*: High CPU Utilization on instance aws-eu-west-3" 
     }
   },
     {
@@ -739,7 +739,7 @@
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": "Verizon SLA compliance is currently 85.23% and ATT is 99.45 ."
+                    "text": "Verizon SLA compliance is currently 85.23% and ATT is 99.45."
                 }
 	    },
 		{    
@@ -749,6 +749,90 @@
             }    
         ]
     }, 	
+        "make att the active ISP for the san diego branch location": {
+        "response_type": "in_channel",
+        "blocks": [
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "*ATT* on *Sandiego-WAN-RTR1* has been made the primary ISP"
+                }
+            }
+        ]
+    },
+    "show me the network topology for the chatops application": {
+        "response_type": "in_channel",
+        "blocks": [
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "@{username} _Here are the results for `/select {command}`_"
+                }
+            },
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "The network topology for the chat ops applications has instances in several cloud regions."
+                }
+	    },
+		{    
+                "type": "image",
+                "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/chatops_map.png",
+                "alt_text": "Network Map"
+            }    
+        ]
+    }, 
+        "show me the latency for the chatops application": {
+        "response_type": "in_channel",
+        "blocks": [
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "@{username} _Here are the results for `/select {command}`_"
+                }
+            },
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "High latency detected betweeen gcp-us-east-4 and aws-eu-west3."
+                }
+	    },
+		{    
+                "type": "image",
+                "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/chatops_latency.png",
+                "alt_text": "Latency"
+            }    
+        ]
+    },	
+     "show me any configuration changes the the chat ops application servers": {
+        "response_type": "in_channel",
+        "blocks": [
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "@{username} _Here are the results for `/select {command}`_"
+                }
+            },
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "Configuration change on aws-eu-west3 ."
+                }
+	    },
+		{    
+                "type": "image",
+                "image_url": "https://raw.githubusercontent.com/kamelkev/slack_slashcommands/main/images/instance_cpu_change.png",
+                "alt_text": "Confige"
+            }   
+        ]
+    },	
         "make att the active ISP for the san diego branch location": {
         "response_type": "in_channel",
         "blocks": [

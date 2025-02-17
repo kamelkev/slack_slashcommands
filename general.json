@@ -225,7 +225,7 @@
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: High Latency detected between aws-eu-west-3 and  gcp-us-east-3 availability zones.  Users in the EU regions Affected.\n\n  *Affected Application:* ACME Chat Ops  \n *Affected Region(s):* EU \n\n *Likely Root Cause*: High CPU Utilization on instance aws-eu-west-3*" 
+      "text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: High Latency detected between aws-eu-west and gcp-us-east availability zones.  Users in the EU regions Affected.\n\n *Affected Application:* ACME Chat Ops  \n *Affected Region(s):* EU \n\n *Likely Root Cause*: High CPU Utilization on instance aws-eu-west-3*" 
     }
   },
     {
@@ -235,7 +235,7 @@
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "*Recommended Remediation:* Redirect EU users to US AWS Region"
+      "text": "_*Recommended Remediation:*_ Redirect EU users to US AWS Region"
     }
   },
   {

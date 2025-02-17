@@ -206,6 +206,110 @@
     ]
   }
 ]
+},
+"cfd2 alert": {
+    "response_type": "in_channel",
+"blocks": [
+  {
+    "type": "header",
+    "text": {
+      "type": "plain_text",
+      "text": "High Latency Application Alert - ID SELEC7243 ",
+      "emoji": true
+    }
+  },
+  {
+    "type": "divider"
+  },
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: High Latency detected between aws-eu-west-3 and  gcp-us-east-3 availability zones.  Users in the EU regions Affected.\n\n  *Affected Application:* ACME Chat Ops  \n *Affected Region(s):* EU \n\n *Likely Root Cause*: High CPU Utilization on instance aws-eu-west-3*" 
+    }
+  },
+    {
+    "type": "divider"
+  }, 	
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "*Recommended Remediation:* Redirect EU users to US AWS Region"
+    }
+  },
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "　　　　　　　　　　　　　　　　　　　　　  [<https://demo.link/lmb2izdndpce|Link to Alert in Selector Portal>]"
+    }
+  },
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "*Total Event Summary:*\n    • 2  High Latency Events\n    • 1 High CPU Alert\n    • 1 Application Degradation Alert \n<https://demo.link/lmb2izdndpce|See More>"
+    }
+  },
+  {
+    "type": "actions",
+    "block_id": "actionblock789",
+    "elements": [
+      {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Preview"
+        },
+        "url": "https://api.slack.com/block-kit"
+      },
+      {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Mute"
+        },
+        "url": "https://api.slack.com/block-kit"
+      },
+      {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Acknowledge"
+        },
+        "url": "https://api.slack.com/block-kit"
+      },
+      {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Incident"
+        },
+        "url": "https://api.slack.com/block-kit"
+      }
+    ]
+  },
+  {
+    "type": "actions",
+    "elements": [
+      {
+        "type": "conversations_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Was this alert useful?",
+          "emoji": true
+        },
+        "filter": {
+          "include": [
+            "private"
+          ]
+        },
+        "action_id": "actionId-0"
+      }
+    ]
+  }
+]
 },	
 "simulate bloomberg alert": {
     "response_type": "in_channel",

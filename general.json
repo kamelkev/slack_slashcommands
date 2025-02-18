@@ -242,14 +242,14 @@
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "　　　　　　　　　　　　　　　　　　　　　  [<https://demo.link/lmb2izdndpce|Link to Alert in Selector Portal>]"
+      "text": "　　　　　　　　　　　　　　　　　　　　　  [<https://demo.link/sra6qinppptf|Link to Alert in Selector Portal>]"
     }
   },
   {
     "type": "section",
     "text": {
       "type": "mrkdwn",
-      "text": "*Total Event Summary:*\n    • 2 High Latency Events\n    • 1 High CPU Alert\n    • 1 Application Degradation Alert \n<https://demo.link/lmb2izdndpce|See More>"
+      "text": "*Total Event Summary:*\n    • 2 High Latency Events\n    • 1 High CPU Alert\n    • 1 Application Degradation Alert \n<https://demo.link/sra6qinppptf|See More>"
     }
   },
   {

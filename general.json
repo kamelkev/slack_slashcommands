@@ -799,7 +799,7 @@
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": "High latency detected betweeen gcp-us-east-4 and aws-eu-west3."
+                    "text": "High latency detected betweeen gcp-us-east-3 and aws-eu-west3."
                 }
 	    },
 		{    

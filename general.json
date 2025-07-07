@@ -17,7 +17,7 @@
 				"type": "section",
 				"text": {
 					"type": "mrkdwn",
-					"text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: if_dom_rx_pwr_critical, if_circuit_status_changes, bgp_flap_rate, if_updown, bfd_change, bgp_peer_uptime, bgp_updown on *router1.site1*, *router2.site2* affecting ATT-CircuitID-12345 \n\n *Root Cause*: if_dom_rx_pwr_critical on *router1.site1* interface *Ethernet48* attached to *ATT-CircuitID-12345* "
+					"text": "🔺 [*HIGH Priority Alert*]\n _*Event Summary*_: if_dom_rx_pwr_critical2, if_circuit_status_changes, bgp_flap_rate, if_updown, bfd_change, bgp_peer_uptime, bgp_updown on *router1.site1*, *router2.site2* affecting ATT-CircuitID-12345 \n\n *Root Cause*: if_dom_rx_pwr_critical on *router1.site1* interface *Ethernet48* attached to *ATT-CircuitID-12345* "
 				}
 			},
 			{
